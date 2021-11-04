@@ -1,0 +1,37 @@
+@import url('./variables.css');
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    margin: 0;
+}
+
+.d-none { display: none; }
+
+.fondo-naranja { background-color: var(--bgc-naranja-transparente); }
+
+.btn {
+    text-align: center;
+    padding: 2em;
+    width: 80%;
+}
+.btn-naranja {
+    background-color: var(--bgc-boton-naranja);
+    color: white;
+}
+
+.centrar-todo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flecha {
+    flex-direction: row;
+    display: flex;
+}
+.columnas {
+    flex-direction: column;
+    display: flex;
+}

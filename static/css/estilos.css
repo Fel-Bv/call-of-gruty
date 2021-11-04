@@ -1,0 +1,75 @@
+@import url('./variables.css');
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    background-color: var(--bgc-naranja);
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+figure img {
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+main {
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+main section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+main section aside {
+    background-color: var(--bgc-naranja-transparente);
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 22vw;
+    gap: 30%;
+    top: 0;
+}
+main section aside.derecha { right: 0; }
+main section aside.izquierda { left: 0; }
+
+#salir-btn {
+    text-align: center;
+    position: fixed;
+    padding: 1em;
+    z-index: 50;
+    width: 7em;
+    left: 1em;
+    top: 1em;
+}

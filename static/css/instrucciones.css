@@ -1,0 +1,11 @@
+.modal-instrucciones {
+    height: 80%;
+    width: 100%;
+}
+.modal-instrucciones > * {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
