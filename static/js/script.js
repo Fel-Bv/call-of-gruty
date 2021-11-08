@@ -57,6 +57,8 @@ function main() {
 
         Modal.esconder();
     });
+
+    if (location.href.includes('github.io')) document.baseURI = '/call-of-gruty/';
 }
 
 document.readyState == 'complete'? main(): document.addEventListener('DOMContentLoaded', main);
