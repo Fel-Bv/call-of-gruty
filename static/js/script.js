@@ -42,8 +42,6 @@ function main() {
             <ul>
                 <li>Pantalla completa</li>
                 <li>Rotar pantalla</li>
-                <li>Reproducción de audio</li>
-                <li>Acceso y venta de tu información personal</li>
             </ul>
         </p>
         <button id="pantalla-completa-btn">Acepto</button>
