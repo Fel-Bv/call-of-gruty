@@ -48,7 +48,7 @@ function crearMinion() {
 }
 
 function mapaAleatorio() {
-    $juego.style.backgroundImage = `url(/static/img/fondo/${Math.round(Math.random() * 4)}.jpg)`;
+    $juego.style.backgroundImage = `url(./static/img/fondo/${Math.round(Math.random() * 4)}.jpg)`;
 
     crearMinion();
 
@@ -62,13 +62,13 @@ function iniciarJuego() {
     for (let i = 0; i < 5; i++) {
         grilla_mapa += `
         <figure>
-            <img class="img-mapa" src="/static/img/fondo/${i}.jpg" alt="Mapa ${i}">
+            <img class="img-mapa" src="./static/img/fondo/${i}.jpg" alt="Mapa ${i}">
         </figure>
         `;
     }
     grilla_mapa += `
     <figure>
-        <img src="/static/img/fondo/aleatorio.png" alt="Mapa aleatorio" id="mapa-aleatorio">
+        <img src="./static/img/fondo/aleatorio.png" alt="Mapa aleatorio" id="mapa-aleatorio">
     </figure>
     `;
     Modal.ponerContenido('Selecciona un mapa', grilla_mapa);

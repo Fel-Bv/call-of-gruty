@@ -30,6 +30,10 @@
     height: 100%;
     width: 100%;
 }
+#grilla-mapa figure img {
+    overflow-x: hidden;
+    max-width: 100%;
+}
 
 #contenedor-puntos {
     background-color: var(--bgc-naranja-fuerte);
