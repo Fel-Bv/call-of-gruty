@@ -68,7 +68,7 @@ main section aside.izquierda { left: 0; }
     text-align: center;
     position: fixed;
     padding: 1em;
-    z-index: 50;
+    z-index: 20;
     width: 7em;
     left: 1em;
     top: 1em;

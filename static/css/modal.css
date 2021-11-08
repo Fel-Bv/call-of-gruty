@@ -19,6 +19,7 @@
 }
 .contenido-modal {
     background-color: var(--bgc-naranja);
+    box-shadow: 0 0 2em #4f4f4f;
     position: absolute;
     padding: 1em;
     margin: auto;

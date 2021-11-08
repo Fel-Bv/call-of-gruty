@@ -17,6 +17,20 @@
     }
 }
 
+#grilla-mapa {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    display: grid;
+    height: 75%;
+    width: 75%;
+    gap: 10px;
+}
+#grilla-mapa figure {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
 #contenedor-puntos {
     background-color: var(--bgc-naranja-fuerte);
     text-align: center;
@@ -45,13 +59,13 @@
 }
 
 main #juego {
-    background-image: url('../img/fondo.jpeg');
-    background-color: var(--bgc-naranja);
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100%;
-    width: 100%;
+	background-color: var(--bgc-naranja);
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
 }
 #img-arma {
     animation-iteration-count: infinite;

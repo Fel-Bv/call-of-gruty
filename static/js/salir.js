@@ -3,6 +3,10 @@ let $salir_btn;
 function main() {
     $salir_btn = document.getElementById('salir-btn');
     $salir_btn.addEventListener('click', () => {
+        setTimeout(_ => {
+            location.reload();
+        }, 1500);
+
         Modal.mostrar();
         Modal.ponerContenido('Salir', `
         <figure>

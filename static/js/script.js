@@ -36,14 +36,12 @@ function main() {
     });
 
     Modal.mostrar();
-    Modal.ponerContenido('Si', `
+    Modal.ponerContenido('Call Of Gruty', `
         <p>
-            Para jugar el juego del año debes dar permiso de acceder a las siguientes funciones:
+            Para jugar debes dar permiso para acceder a las siguientes funciones:
             <ul>
                 <li>Pantalla completa</li>
                 <li>Rotar pantalla</li>
-                <li>Reproducción de audio</li>
-                <li>Acceso y venta de tu información personal</li>
             </ul>
         </p>
         <button id="pantalla-completa-btn">Acepto</button>
