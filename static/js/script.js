@@ -38,7 +38,7 @@ function main() {
     Modal.mostrar();
     Modal.ponerContenido('Call Of Gruty', `
         <p>
-            Para jugar debes dar permiso para acceder a las siguientes funciones:
+            Para jugar debes dar permiso de acceder a las siguientes funciones:
             <ul>
                 <li>Pantalla completa</li>
                 <li>Rotar pantalla</li>
