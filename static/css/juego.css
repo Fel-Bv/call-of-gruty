@@ -86,5 +86,5 @@ main #juego {
 .minion {
     position: fixed;
     cursor: pointer;
-    width: 350px;
+    width: 150px;
 }
